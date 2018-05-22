@@ -8,9 +8,9 @@ A[]!(deadlock)
 /*
 Bounded Liveliness
 */
-E<>!(t1.Red and t2.Red)
+E<>!(lightsignal1.Red and lightsignal2.Red and heavy.Red)
 
 /*
 Mutex Property
 */
-A[]!(t1.Green and t2.Green)
+A[]!(lightsignal1.Green and lightsignal2.Green)
